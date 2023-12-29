@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment/>
+    <entry key="registMember">
+        INSERT INTO TBL_MEMBER (
+                                MEMBER_NO,
+                                MEMBER_NAME,
+                                MEMBER_ID,
+                                MEMBER_PASSWORD,
+                                MEMBER_PHONE,
+                                MEMBER_ADDRESS
+                              )
+        VALUES (?, ?, ?, ?, ?, ?)
+
+    </entry>
+
+    <entry key="selectMemberId">
+        SELECT
+            member_id
+        FROM
+            tbl_member
+    </entry>
+
+    <entry key="selectMemberName">
+        SELECT
+                member_name
+        FROM
+                tbl_member
+    </entry>
+
+    <entry key="updateMember">
+        UPDATE TBL_MEMBER (
+                            MEMBER_NO = ?,
+                            MEMBER_NAME = ?,
+                            MEMBER_ID = ?,
+                            MEMBER_PASSWORD = ?,
+                            MEMBER_PHONE = ?,
+                            MEMBER_ADDRESS = ?
+                            )
+        WHERE MEMBER_NAME = ?
+
+    </entry>
+
+
+
+
+</properties>

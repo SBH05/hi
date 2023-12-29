@@ -1,2 +1,0 @@
-rootProject.name = "chap06-class-and-object-practice-question"
-
