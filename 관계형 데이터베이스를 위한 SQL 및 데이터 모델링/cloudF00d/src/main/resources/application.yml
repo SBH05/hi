@@ -1,0 +1,57 @@
+spring:
+  datasource:
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:mysql://mysql.coffit.today:3306/samjo
+    username: samjo
+    password: samjo
+  servlet:
+    multipart:
+      enabled: true
+      location: C:/thymeleaf-springboot/
+
+#  server:
+#    port: 8081
+
+  devtools:
+    restart:
+      enabled: false
+    livereload:
+      enabled: true
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+    check-template-location: true
+
+logging:
+  level:
+    root: info
+
+# MAC용 url
+img:
+  macurl: /Users/kimminha/Desktop/JAVA/dev/07_cloudFooding(PJ)/uploadfile/Introductionimg/
+
+mybatis:
+  # mapper.xml location Setting
+  mapper-locations: mybatis/mapper/*.xml
+  # alias Setting
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+
+#  mail:
+#    host: smtp.gmail.com # 1
+#    port: 587 # 2
+#    username: lees8485@gmail.com # 3
+#    password: penqoytsdahudarz  # 4
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true # 5
+#          timeout: 5000 # 6
+#          starttls:
+#            enable: true # 7
+
+
