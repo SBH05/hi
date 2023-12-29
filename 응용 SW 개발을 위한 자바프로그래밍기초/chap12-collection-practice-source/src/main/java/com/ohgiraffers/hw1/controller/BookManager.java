@@ -9,43 +9,65 @@ import com.ohgiraffers.hw1.view.BookMenu;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class BookManager {
     BookMenu bmn = new BookMenu();
-    private ArrayList<BookDTO> bookList = new ArrayList<>();
-    private Scanner sc = new Scanner(System.in);
+    private static ArrayList<BookDTO> bookList = new ArrayList<>();
 
     public BookManager() {
     }
 
     public void addBook(BookDTO booklist) {
+        bookList.add(booklist);
+
+        }
 
 
+    public int deleteBook(int key) {
+        bookList.remove(key - 1);
+        return key;
     }
 
-    public int deleteBook() {
-    }
+    public String searchBook(String title) {
+        int count = 0;
+        for (int i = 0 ; i < bookList.size(); i ++){
+            if (bookList.get(i).getTitle().contains(title)){
+                System.out.println("검색하신 도서는 " + bookList.get(i) + "입니다.");
+                count++;
+            }
+        }
+        if (count == 0){
+        System.out.println("조회한 도서가 목록에 없습니다.");}
 
-    public String searchBook() {
+        return title;
 
     }
 
     public void displayAll() {
+        if (bookList.size() == 0) {
+            System.out.println("출력 결과가 없습니다.");}
 
+            for (int i = 0; i < bookList.size(); i++) {
+                System.out.println(i + " " + bookList.get(i));
 
         }
-
     }
 
-    public List<BookDTO> sortedBookList(int type) {
-        AscBookTitle asc = new AscBookTitle();
 
-        switch (type){
-            case 1 : bookList.sort(new AscBookNo()); break;
-            case 2 : bookList.sort(new DescBookNo()); break;
-            case 3 : bookList.sort(new AscBookTitle()); break;
-            case 4 : bookList.sort(new DescBookTitle()); break;
+    public List<BookDTO> sortedBookList(int type) {
+        switch (type) {
+            case 1:
+                bookList.sort(new AscBookNo());
+                break;
+            case 2:
+                bookList.sort(new DescBookNo());
+                break;
+            case 3:
+                bookList.sort(new AscBookTitle());
+                break;
+            case 4:
+                bookList.sort(new DescBookTitle());
+                break;
 
         }
         return bookList;
@@ -53,8 +75,10 @@ public class BookManager {
     }
 
     public void printBookList(List<BookDTO> printlist) {
-
+        for (int i = 0; i < bookList.size(); i++) {
+            System.out.println(bookList.get(i));
         }
+
     }
 }
 
