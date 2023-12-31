@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1140ae66-29be-4c4c-84f1-bce2fecb8cb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/common/JDBCTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/config/connection-info.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/SelectListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/memberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/dto/CartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/dto/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/mapper/Cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/model/dao/CartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/run/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/CartView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/ListView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/MyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/ProductView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/memberView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2aIak2d1F0UE8WkXGrmS4FU6v2v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/서보혜/Desktop/새 폴더/TeamHamster",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\서보혜\Desktop\평가\hi\JDBC\hamsterJDBC\src\main\java\com\teamproject\hamster" />
+      <recent name="C:\Users\서보혜\Desktop\평가\hi\JDBC\hamsterJDBC\src\main\java\com\teamproject\hamster\common" />
+      <recent name="C:\Users\서보혜\Desktop\평가\hi\JDBC\hamsterJDBC\src\main\java" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1140ae66-29be-4c4c-84f1-bce2fecb8cb5" name="Changes" comment="" />
+      <created>1704008693119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704008693119</updated>
+      <workItem from="1704008694117" duration="5783000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
