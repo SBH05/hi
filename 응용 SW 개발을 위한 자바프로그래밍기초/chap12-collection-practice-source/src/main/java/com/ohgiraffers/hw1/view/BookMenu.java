@@ -25,30 +25,40 @@ public class BookMenu {
             System.out.println("6. 프로그램 종료 ");
             System.out.println("*********************************");
             System.out.print("원하시는 프로그램을 선택해주세요 : ");
-            int no = sc.nextInt();
+            int num = sc.nextInt();
             sc.nextLine();
+            switch (num){
+                case 1 :
+                    bm.addBook(inputBook());
+                    continue;
 
-            if (no == 1 ){
-                bm.addBook(inputBook());
-            } else if (no == 2 ) {
-                selectSortedBook();
-                } else if (no == 3) {
-                bm.deleteBook(inputBookNo());
-            } else if (no == 4) {
-                bm.searchBook(inputBookTitle());
-            } else if (no == 5){
-                bm.displayAll();
+                case 2 :
+                    selectSortedBook();
+                    continue;
 
-            } else if (no == 6) {
-                break;
+                case 3 :
+                    bm.deleteBook(inputBookNo());
+                    continue;
+
+                case 4 :
+                    bm.searchBook(inputBookTitle());
+                    continue;
+
+                case 5 :
+                    bm.displayAll();
+                    continue;
+
+                case 6 :
+                    break;
             }
+            break;
         }
-        }
+    }
 
     public BookDTO inputBook(){
         System.out.print("도서 번호를 입력해주세요 : ");
         int bNo = sc.nextInt();
-        System.out.print("도서 장르 ( 1 : 인문 / 2 : 자연과학 / 3 : 의료 / 4 : 기타) 를 선택해주세요.");
+        System.out.print("도서 장르 ( 1 : 인문 / 2 : 자연과학 / 3 : 의료 / 4 : 기타) 를 선택해주세요. : ");
         int category = sc.nextInt();
         sc.nextLine();
         System.out.print("도서 제목을 입력해주세요 : ");
@@ -70,7 +80,7 @@ public class BookMenu {
     }
 
     public String inputBookTitle (){
-        System.out.print("검색하실 도서 제목을 입력해주세요.");
+        System.out.print("검색하실 도서 제목을 입력해주세요. : ");
         String title = sc.nextLine();
 
         return title;
