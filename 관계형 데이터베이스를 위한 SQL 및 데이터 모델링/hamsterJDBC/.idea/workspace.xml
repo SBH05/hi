@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1140ae66-29be-4c4c-84f1-bce2fecb8cb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/common/JDBCTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/config/connection-info.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/SelectListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/controller/memberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/dto/CartDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/dto/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/mapper/Cart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/model/dao/CartDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/run/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/CartView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/ListView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/MyPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/ProductView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamproject/hamster/view/memberView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2aIak2d1F0UE8WkXGrmS4FU6v2v" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,6 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
     "last_opened_file_path": "C:/Users/서보혜/Desktop/새 폴더/TeamHamster",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -89,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704008693119</updated>
       <workItem from="1704008694117" duration="5783000" />
+      <workItem from="1704252814383" duration="7000" />
     </task>
     <servers />
   </component>

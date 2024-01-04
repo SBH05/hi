@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <entry key="selectAllCart">
+        SELECT
+        cart_no,
+        member_no,
+        product_no,
+        size_no,
+        select_count
+        FROM
+        tbl_cart
+    </entry>
+
+    <entry key="selectAllProduct">
+        SELECT
+        product_no,
+        product_name,
+        product_price
+        FROM
+        tbl_product
+    </entry>
+
+    <entry key="selectAllMember">
+        SELECT
+        member_no,
+        member_name,
+        member_id,
+        member_password,
+        member_phone,
+        member_address
+        FROM
+        tbl_member
+    </entry>
+</properties>
